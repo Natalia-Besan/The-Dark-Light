@@ -1,0 +1,19 @@
+@use 'variables';
+
+header {
+  background: variables.$main-bg-color;
+  nav {
+    ul {
+      li {
+        list-style: none;
+      }
+    }
+  }
+}
+// компиляция из корневого sass  в css
+// $ переменные
+// импорт файлов
+// использование перемененных из файлов
+// вложенность
+
+//  mixin
