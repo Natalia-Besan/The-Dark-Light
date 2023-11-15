@@ -2,8 +2,40 @@
 
 header {
   background: variables.$main-bg-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: variables.$main-color;
+  padding: 22px 70px;
+
+  .icons-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    img:not(:first-child) {
+      width: 45px;
+      height: 45px;
+      padding: 12px 18px;
+      background: variables.$secondary-bg-color;
+    }
+    img:first-child {
+      margin-right: 35px;
+    }
+  }
+
   nav {
+    font-family: variables.$main-font;
+    font-size: 17px;
+    letter-spacing: 0.17px;
     ul {
+      display: flex;
+      gap: 47px;
+
+      li:first-child {
+        color: variables.$secondary-color;
+      }
+
       li {
         list-style: none;
       }

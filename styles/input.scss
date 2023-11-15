@@ -4,6 +4,10 @@
 @use 'footer';
 
 * {
-  font-size: 16px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
   font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
 }

@@ -1,11 +1,46 @@
 header {
   background: #1b3764;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f6f8fc;
+  padding: 22px 70px;
+}
+header .icons-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header .icons-container img:not(:first-child) {
+  width: 45px;
+  height: 45px;
+  padding: 12px 18px;
+  background: #ffffff;
+}
+header .icons-container img:first-child {
+  margin-right: 35px;
+}
+header nav {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  letter-spacing: 0.17px;
+}
+header nav ul {
+  display: flex;
+  gap: 47px;
+}
+header nav ul li:first-child {
+  color: #ffca42;
 }
 header nav ul li {
   list-style: none;
 }
 
 * {
-  font-size: 16px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
   font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
 }/*# sourceMappingURL=input.css.map */
