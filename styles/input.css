@@ -1,3 +1,12 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+}
+
 header {
   background: #1b3764;
   display: flex;
@@ -14,7 +23,7 @@ header .icons-container {
 header .icons-container img:not(:first-child) {
   width: 45px;
   height: 45px;
-  padding: 12px 18px;
+  padding: 12px 15px;
   background: #ffffff;
 }
 header .icons-container img:first-child {
@@ -35,12 +44,72 @@ header nav ul li:first-child {
 header nav ul li {
   list-style: none;
 }
+header button {
+  border: 2px solid #ffca42;
+  background: #ffca42;
+  padding: 18px 52px;
+  color: #1b3764;
+  font-family: "Cardo", serif;
+  font-size: 19px;
+  line-height: 28.5px;
+  letter-spacing: 0.57px;
+  text-transform: capitalize;
+}
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
+main {
+  display: flex;
+  background: #1b3764;
+  padding: 100px 70px;
+}
+main section {
+  max-width: 588px;
+}
+main section h1,
+main section h2 {
+  font-family: "Cardo", serif;
+  color: #ffffff;
+}
+main section h1 {
+  font-size: 21px;
+  line-height: 36px;
+  letter-spacing: 1.2px;
+  text-transform: capitalize;
+}
+main section h2 {
+  font-size: 64px;
+  line-height: 78px;
+  letter-spacing: 1.3px;
+}
+main section h2 strong {
+  font-family: "Cardo", serif;
+}
+main section p {
+  color: #b4c7e7;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 28.5px;
+}
+main section button:first-child {
+  border: 2px solid #ffca42;
+  background: #ffca42;
+  padding: 18px 52px;
+  color: #1b3764;
+  font-family: "Cardo", serif;
+  font-size: 19px;
+  line-height: 28.5px;
+  letter-spacing: 0.57px;
+  text-transform: capitalize;
+  margin-right: 51px;
+}
+main section button:last-child {
+  color: #fff;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  font-family: "Cardo", serif;
+  font-size: 19px;
+  padding: 18px 52px;
+  line-height: 30.4px;
+  letter-spacing: 0.38px;
+  text-transform: capitalize;
 }/*# sourceMappingURL=input.css.map */

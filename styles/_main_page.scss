@@ -1,0 +1,54 @@
+@use 'variables';
+
+main {
+  display: flex;
+  background: variables.$main-bg-color;
+  padding: 100px 70px;
+
+  section {
+    max-width: 588px;
+
+    h1,
+    h2 {
+      font-family: variables.$secondary-font;
+      color: variables.$secondary-bg-color;
+    }
+    h1 {
+      font-size: 21px;
+      line-height: 36px;
+      letter-spacing: 1.2px;
+      text-transform: capitalize;
+    }
+    h2 {
+      font-size: 64px;
+      line-height: 78px;
+      letter-spacing: 1.3px;
+      strong {
+        font-family: variables.$secondary-font;
+      }
+    }
+    p {
+      color: variables.$third-color;
+      font-family: variables.$main-font;
+      font-size: 18px;
+      line-height: 28.5px;
+    }
+
+    button:first-child {
+      @include variables.yellowButton;
+      margin-right: 51px;
+    }
+    button:last-child {
+      color: #fff;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid variables.$secondary-bg-color;
+      font-family: variables.$secondary-font;
+      font-size: 19px;
+      padding: 18px 52px;
+      line-height: 30.4px;
+      letter-spacing: 0.38px;
+      text-transform: capitalize;
+    }
+  }
+}

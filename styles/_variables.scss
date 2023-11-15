@@ -1,7 +1,19 @@
-// переменные
 $main-color: #f6f8fc;
 $secondary-color: #ffca42;
+$third-color: #b4c7e7;
 $main-bg-color: #1b3764;
 $secondary-bg-color: #ffffff;
 $main-font: 'Inter', sans-serif;
 $secondary-font: 'Cardo', serif;
+
+@mixin yellowButton {
+  border: 2px solid $secondary-color;
+  background: $secondary-color;
+  padding: 18px 52px;
+  color: $main-bg-color;
+  font-family: $secondary-font;
+  font-size: 19px;
+  line-height: 28.5px;
+  letter-spacing: 0.57px;
+  text-transform: capitalize;
+}

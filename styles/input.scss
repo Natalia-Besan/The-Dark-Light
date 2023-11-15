@@ -1,13 +1,5 @@
+@use 'globals';
 @use 'variables';
 @use 'header';
 @use 'main_page';
 @use 'footer';
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-}

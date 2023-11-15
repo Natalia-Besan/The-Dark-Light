@@ -16,7 +16,7 @@ header {
     img:not(:first-child) {
       width: 45px;
       height: 45px;
-      padding: 12px 18px;
+      padding: 12px 15px;
       background: variables.$secondary-bg-color;
     }
     img:first-child {
@@ -40,6 +40,10 @@ header {
         list-style: none;
       }
     }
+  }
+
+  button {
+    @include variables.yellowButton;
   }
 }
 
